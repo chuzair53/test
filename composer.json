@@ -1,0 +1,24 @@
+{
+    "name": "Uzair/Validation",
+    "description": "this is my new testing package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+     {
+     	"name": "uzair",
+     	"email": "chuzair53@gmail.com"
+     }
+    ],
+
+    "require": {},
+    "autoload": {
+    	"psr-4":{
+    		"Uzair\\Validation\\" : "src/"
+    	}
+    },
+    "extra": {
+        "branch-alias":{
+            "dev-master": "1.0-dev"
+        }
+    }
+}
